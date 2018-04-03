@@ -1,0 +1,14 @@
+.footer {
+  padding-top: 5.75rem;
+  padding-bottom: 5.5rem;
+  background-color: $footer-bg;
+
+  &-btn {
+    color: $primary;  
+  }
+
+  &-heading {
+    color: $white;
+    font-size: $h3-font-size;
+  }
+}

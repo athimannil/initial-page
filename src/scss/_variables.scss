@@ -1,0 +1,46 @@
+// $body-bg: #404040;
+$body-color: #555;
+// $body-color: #333;
+
+// Theme
+$primary: #ff4895;
+$footer-bg: $primary;
+$black: #000;
+$gray-dark: lighten($black, 97%);
+$facebook: #3b5998;
+
+// Typography
+$font-family-base: 'Roboto', sans-serif;
+$headings-color: #333;
+$headings-font-weight: 700;
+$h1-font-size: 3.5rem;
+$h2-font-size: 1.875rem;
+$h3-font-size: 1.5rem;
+$h4-font-size: 1.25rem;
+$h5-font-size: 0.875rem;
+
+// Button
+$btn-font-weight: 700;
+$btn-border-radius: 3.25rem;
+$font-size-lg: 1.125rem;
+$input-btn-padding-y: 1rem;
+$input-btn-padding-x: 2.125rem;
+$link-color: $body-color;
+
+// Form
+$input-padding-y: 0.375rem;
+$input-padding-x: 0.75rem;
+
+// Modal
+$modal-md: 56.25rem;
+$modal-inner-padding: 2.5rem;
+
+// Colors
+// $primary-color: tomato;
+// $brand-color: #174a8f;
+// $white: #fff;
+
+// Break points
+// $screen-sm: 30rem;
+// $screen-md: 48rem;
+// $screen-lg: 75rem;

@@ -1,0 +1,41 @@
+section {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.hidden {
+  display: none;
+}
+
+%general-modal-button {
+  font: {
+    size: 0.9375rem;
+    weight: 400;
+  }
+}
+
+.btn {
+  text-transform: uppercase;
+
+  &fb {
+    color: $white;
+    background-color: $facebook;
+    padding: $input-btn-padding-y-sm*2 $input-btn-padding-x-sm;
+    margin: 0.625rem 0;
+    @extend .btn-block;
+    @extend %general-modal-button;
+
+    &:hover {
+      color: $white;
+      background-color: darken($facebook, 7%);
+    }
+  }
+
+  &.btnPink,
+  &#show_register_form {
+    @extend .btn-primary;
+    @extend .btn-block;
+    padding: $input-btn-padding-y-sm*2 $input-btn-padding-x-sm;
+    @extend %general-modal-button;
+  }
+}

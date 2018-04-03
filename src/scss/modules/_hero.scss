@@ -1,0 +1,15 @@
+.hero {
+  $bgc: lighten($primary, 33%);
+
+  max-height: 34rem;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(to right, rgba($bgc, .5), rgba($bgc, .5)), url('https://placeimg.com/1200/480/nature');
+  background-size: cover, cover;
+  background-position: center, center;
+  background-repeat: no-repeat, no-repeat;
+
+  @include media-breakpoint-up(sm) {
+    height: 60vw;
+  }
+}

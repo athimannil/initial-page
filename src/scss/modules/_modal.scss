@@ -1,0 +1,79 @@
+.modal-header {
+  align-items: center;
+  align-content: center;
+  border-bottom: none;
+}
+
+.modal-title {
+  flex: 1;
+  text-align: center;
+}
+
+.modal-body {
+
+  .row {
+    justify-content: space-between;
+  }
+}
+
+.col-login {
+  margin-bottom: 4rem;
+}
+
+.closeUpPanel {
+  align-self: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+
+  &:hover {
+    color: $primary;
+  }
+}
+
+.grey-title {
+  margin: 1.5rem 0;
+  text-align: center;
+
+  .allcaps{
+    font-size: 1rem;
+  }
+}
+
+#Login-Form-Email {
+
+  .form-group {
+    margin-bottom: 0.5rem;
+  }
+
+  .pass-link {
+    text-align: right;
+    font-size: 0.875rem;
+  }
+}
+
+#close_up-form,
+#lostPW-container,
+#login_after_register,
+.register_form {
+  display: none;
+}
+
+.register_intro {
+  @extend .mt-4;
+}
+
+
+.fa-ul {
+  list-style: none;
+
+  li {
+    position: relative;
+    font-size: 0.9375rem;
+  }
+
+  .fa-li{
+    position: absolute;
+    left: -1.5rem;
+    top: 0.25rem;
+  }
+}
